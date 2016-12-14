@@ -143,7 +143,7 @@ header{
 .advantages{
   margin-top: 130px;
   li{
-    padding-left: 113px;
+    padding-left: 143px;
     padding-bottom: 67px;
     padding-top: 11px;
     position: relative;
@@ -156,7 +156,7 @@ header{
   }
   a{
     float: right;
-    margin-right: 63px;
+    margin-right: 69px;
     margin-top: 46px;
     display: block;
   }
@@ -164,7 +164,7 @@ header{
 .medal{
   &:after{
     position: absolute;
-    left: 31px;
+    left: 63px;
     top: 0;
     content: '';
     background-image: url("../img/medal.png");
@@ -178,7 +178,7 @@ body .nine{
   padding-bottom: 42px;
   &:after{
     position: absolute;
-    left: 31px;
+    left: 63px;
     top: -6px;
     content: '';
     background-image: url("../img/nine.png");
@@ -191,7 +191,7 @@ body .lamp{
   letter-spacing: 0.2px;
   &:after{
     position: absolute;
-    left: 31px;
+    left: 63px;
     top: 10px;
     content: '';
     background-image: url("../img/lamp.png");
@@ -202,7 +202,7 @@ body .lamp{
 }
 .form{
   float: right;
-  margin-right: 17px;
+  margin-right: 48px;
   margin-top: 51px;
 }
 .forma{
@@ -277,7 +277,7 @@ body .phone-form{
 .advantages-item{
   text-align: center;
   margin-top: 2px;
-  margin-right: 64px;
+  margin-right: 13px;
   font-weight:600;
   h2{
     color: #ffccff;
@@ -294,7 +294,7 @@ body .phone-form{
   }
 }
 body .advantages-item_m{
-  margin-left: 46px;
+  margin-left: 0px;
   p{
     padding-left: 20px;
     letter-spacing: 0px;
@@ -302,9 +302,9 @@ body .advantages-item_m{
 }
 
 .advantages-item_r{
-  margin-left: 124px;
+  margin-left: 27px;
   p{
-    padding-left: 5px;
+    padding-left: 9px;
     font-size: 17px;
     letter-spacing: 0px;
   }
@@ -322,7 +322,7 @@ body .advantages-item_m{
     &:after{
       position: absolute;
       bottom: 20px;
-      left: 42.6%;
+      left: 43%;
       content: '';
       background-image: url("../img/star.png");
       background-repeat: no-repeat;

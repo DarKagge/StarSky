@@ -41,7 +41,7 @@ body textarea:required:valid{
 }
 .choice-popup{
     background-color: #fff;
-    width: 97.2%;
+    width: 92.2%;
     min-height: 470px;
     margin: 5px auto;
     padding: 16px;
@@ -211,14 +211,14 @@ body .lslide{
 .sky-zag{
     text-align: center;
     font-size: 72px;
-    font-weight: 400;
+    font-weight: 300;
     color: #333333;
     margin-top: 35px;
-    letter-spacing: -0.2px;
+    letter-spacing: 1.5px;
     position: relative;
     &:after{
         position: absolute;
-        left: 28.9%;
+        left: 30%;
         bottom: -31px;
         content: '';
         background-image: url("../img/star-f.png");
@@ -230,22 +230,199 @@ body .lslide{
 
 .positive-qualities{
     margin-top: 80px;
+    margin-bottom: 56px;
 }
 .item-pos{
     text-align: center;
-    padding-right: 59px;
+    padding-right: 18px;
     padding-top: 18px;
     margin-bottom: 96px;
     p{
         font-size: 18px;
         color: #333333;
-        line-height: 24px;
+        line-height: 23px;
         padding-top: 50px;
-        letter-spacing: 0.8px;
+        letter-spacing: 0.7px;
     }
 }
 .item-pos_b{
-    padding-right: 50;
+
+}
+
+.item-pos_t{
+    padding-top: 10px;
+    padding-right: 0px;
+
+}
+.item-pos_h{
+    padding-top: 0px;
+    padding-right: 0px;
+}
+.item-pos_f{
+    padding-top: 11px;
+    padding-right: 0px;
+    padding-left: 24px;
+}
+.item-pos_s{
+    padding-top: 39px;
+    padding-left: 39px;
+    p{
+        letter-spacing: -0.1px;
+    }
+}
+.star{
+    background-image: url("../img/bg-stars.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.sky-zag-star{
+    font-size: 54px;
+    font-weight:300;
+    margin-top: 79px;
+    letter-spacing: 1.5px;
+    margin-bottom: 84px;
+    
+}
+.amenities{
+    background-image: url("../img/bg-pip.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.amenities-se{
+    background-image: url("../img/bg-se.jpg");
+}
+.amenities-in{
+    background-image: url("../img/bg-che.jpg");
+}
+.amenities-mon{
+    background-image: url("../img/bg-hen.jpg");
+}
+.all-amenities{
+    text-align: center;
+    color: #fff;
+    padding-top: 305px;
+    padding-bottom: 9px;
+    p{
+        font-size: 20px;
+        padding-top: 49px;
+        letter-spacing: 1.2px;
+
+    }
+    button{
+        font-weight: 800;
+        font-size: 16px;
+        background-color: #c02ac3;
+        text-align: center;
+        padding: 12px 34px;
+        margin-top: 43px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing:0.6px ;
+        margin-bottom: 100px;
+        text-shadow: 2px 3px 1px rgba(0,0,0,0.3);
+        &:hover{
+            background-color: #bd26bf;
+        }
+    }
+    a{
+        display: inherit;
+        margin-top: 146px;
+        padding-right: 3px;
+        margin-bottom: 30px;
+    }
+}
+.zag-amenities{
+    position: relative;
+    &:after{
+        position: absolute;
+        left: 43%;
+        bottom: -30px;
+        width: 173px;
+        height: 11px;
+        background-image: url("../img/star-p.png");
+        content: '';
+    }
+    h3{
+        font-size: 72px;
+        font-weight: 300;
+        letter-spacing: 1.6px;
+    }
+}
+.zag-amenities-height{
+    h3{
+        line-height: 70px;
+    }
+}
+
+
+.production{
+    text-align: center;
+    p{
+        font-size: 20px;
+        padding-bottom: 150px;
+        color: #333333;
+        letter-spacing: 1.2px;
+    }
+
+}
+.sky-zag-client{
+    font-size: 54px;
+    font-weight:300;
+    margin-top: 58px;
+    letter-spacing: 1.2px;
+    margin-bottom: 72px;
+}
+.client-dil{
+    text-align: center;
+    padding-bottom: 85px;
+}
+.production-slider{
+    position: relative;
+}
+body .production-slider .lSSlideOuter{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+body .production-slider .lSSlideOuter .lSPager.lSGallery{
+    margin: 0 auto;
+    width: 100% !important;
+    position: absolute;
+    top: -134px;
+    left: 6%;
+
+}
+body .production-slider .lSSlideOuter .lSPager.lSGallery li{
+    margin-right: 15px !important;
+    max-width: 176px !important;
+    width: 100% !important;
+    min-height: 160px;
+}
+body .production-slider .lSSlideWrapper{
+    padding-left: 0;
+    min-height: auto !important;
+    padding-top: 50px;
+}
+body .production-slider .lslide{
+    max-height: 714px !important;
+    height: 714px !important;
+}
+body .production-slider .lSAction>a{
+    background-image: none;
+}
+body .production-slider .lSAction>.lSNext{
+    background-image: url("../img/slider-arrow.png");
+    width: 32px;
+    height: 61px;
+    right: 70px;
+}
+body .production-slider .lSAction>.lSPrev{
+    background-image: url("../img/slider-arrow1.png");
+    width: 32px;
+    height: 61px;
+    left: 70px;
 }
 //ALWAYS END
 @import "media.scss";
