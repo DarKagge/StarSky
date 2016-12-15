@@ -57,7 +57,7 @@ body textarea:required:valid {
 .graf {
   padding-left: 15px; }
   .graf button {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 16px;
     background-color: #c732cb;
     margin: 24px auto;
@@ -364,6 +364,113 @@ body .production-slider .lSAction > .lSPrev {
   width: 32px;
   height: 61px;
   left: 70px; }
+
+.want-item {
+  padding-top: 98px;
+  text-align: center;
+  padding-right: 10px; }
+  .want-item p {
+    font-size: 20px;
+    color: #333333;
+    padding-top: 30px;
+    letter-spacing: 0.5px;
+    line-height: 26px; }
+
+.want-item1 {
+  padding-top: 114px;
+  padding-left: 16px; }
+  .want-item1 p {
+    padding-top: 44px; }
+
+.want-item2 {
+  padding-left: 36px; }
+
+.but-want {
+  text-align: center;
+  padding-top: 79px; }
+
+.want-popup {
+  font-weight: 800;
+  font-size: 18px;
+  background-color: #c732cb;
+  margin: 24px auto;
+  text-align: center;
+  padding: 18px 44px;
+  -webkit-border-radius: 35px;
+  border-radius: 35px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3); }
+  .want-popup:hover {
+    background-color: #bd26bf; }
+
+.solutions {
+  background-color: #f5f7fa;
+  background-image: url("../img/all-stars1.jpg");
+  background-repeat: no-repeat;
+  background-position: center top; }
+
+.sky-zag-solutions {
+  margin-top: 122px;
+  letter-spacing: 0.79px; }
+
+.pad-sol {
+  padding-top: 54px; }
+
+.img-solutions {
+  max-width: 600px;
+  max-height: 382px;
+  padding-left: 46px; }
+  .img-solutions img {
+    width: 100%;
+    height: 385px; }
+
+.solutions .title-graf span {
+  font-size: 36px;
+  color: #333333;
+  padding-top: 0;
+  line-height: 36px; }
+
+.solutions .title-graf p {
+  font-size: 42px;
+  font-weight: 600;
+  padding-bottom: 5px; }
+
+.solutions .graf {
+  padding-left: 52px; }
+
+.graf-cost {
+  font-size: 32px;
+  color: #333333;
+  padding-left: 5px; }
+
+.solutions-left {
+  background-image: url("../img/bg-all-star.jpg"); }
+
+.pad-sol-left {
+  padding-top: 108px; }
+
+.solutions-left .graf {
+  padding-left: 45px;
+  background-color: #fff; }
+
+.solutions-left .graf button {
+  margin: 13px auto; }
+
+.solutions-left .img-solutions {
+  padding-left: 0; }
+
+.pad-city {
+  padding-top: 106px; }
+
+.emotions {
+  background-image: url("../img/bg-all-star.jpg");
+  background-repeat: no-repeat;
+  background-position: center top; }
+
+.solutions-bg {
+  background-image: url("../img/all-stars2.jpg"); }
 
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
