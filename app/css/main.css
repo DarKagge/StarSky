@@ -472,6 +472,57 @@ body .production-slider .lSAction > .lSPrev {
 .solutions-bg {
   background-image: url("../img/all-stars2.jpg"); }
 
+.sky-zag-emotions {
+  margin-top: 225px;
+  letter-spacing: 0.6px;
+  margin-bottom: 63px; }
+
+.emotions-table {
+  max-width: 1136px;
+  margin: 0 auto; }
+
+.table-item {
+  padding-left: 26px;
+  padding-top: 14px;
+  float: left;
+  color: #fff;
+  font-size: 26px;
+  line-height: 37px;
+  letter-spacing: 1.6px; }
+  .table-item span {
+    display: block;
+    width: 77px;
+    height: 6px;
+    background-color: #fff;
+    margin-top: 16px;
+    margin-bottom: 46px; }
+
+.table-item_1 {
+  width: 41%;
+  min-height: 280px;
+  background-color: #9b59b6;
+  background-image: url("../img/yzor.png");
+  background-position: right top;
+  background-repeat: no-repeat; }
+
+.table-item_2 {
+  width: 59%;
+  min-height: 280px;
+  background-color: #34495e;
+  background-image: url("../img/yzor1.jpg");
+  background-repeat: no-repeat; }
+
+.table-item_3 {
+  background-color: #1abc9c;
+  width: 59.2%;
+  min-height: 280px;
+  background-image: url("../img/yzor2.png");
+  background-repeat: no-repeat; }
+  .table-item_3 img {
+    float: right;
+    padding-right: 25px;
+    padding-top: 20px; }
+
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
