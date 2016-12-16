@@ -217,13 +217,14 @@ body .lslide{
     letter-spacing: 1.5px;
     position: relative;
     &:after{
-        position: absolute;
-        left: 30%;
-        bottom: -31px;
+        display: block;
+        margin: 30px auto;
         content: '';
         background-image: url("../img/star-f.png");
         background-repeat: no-repeat;
-        width:508px;
+        background-size: 100%;
+        max-width:508px;
+        width: 100%;
         height: 9px;
     }
 }
@@ -336,9 +337,8 @@ body .lslide{
 .zag-amenities{
     position: relative;
     &:after{
-        position: absolute;
-        left: 43%;
-        bottom: -30px;
+        display: block;
+        margin: 15px auto;
         width: 173px;
         height: 11px;
         background-image: url("../img/star-p.png");
@@ -654,10 +654,9 @@ body .production-slider .lSAction>.lSPrev{
     position: relative;
     letter-spacing: 0.7px;
     &:after{
-      position: absolute;
+      display: block;
+      margin: 15px auto;
       content: '';
-      bottom: -20px;
-      left: 43%;
       background-image: url("../img/star-p.png");
       background-repeat: no-repeat;
       width: 173px;

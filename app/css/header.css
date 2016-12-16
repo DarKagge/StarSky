@@ -32,7 +32,8 @@ button:hover {
 header {
   background-image: url("../img/bg-sky.jpg");
   min-height: 1620px;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
 
 .logo {
   padding-left: 47px;
@@ -105,9 +106,8 @@ header {
     text-transform: uppercase;
     position: relative; }
     .head-inf p:after {
-      position: absolute;
-      bottom: -23px;
-      left: 42.7%;
+      display: block;
+      margin: 23px auto;
       content: '';
       background-image: url("../img/star.png");
       background-repeat: no-repeat;
@@ -279,9 +279,8 @@ body .advantages-item_m {
     padding-bottom: 50px;
     position: relative; }
     .head-bottom h2:after {
-      position: absolute;
-      bottom: 20px;
-      left: 43%;
+      display: block;
+      margin: 20px auto;
       content: '';
       background-image: url("../img/star.png");
       background-repeat: no-repeat;

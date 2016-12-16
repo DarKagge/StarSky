@@ -183,13 +183,14 @@ body .lslide {
   letter-spacing: 1.5px;
   position: relative; }
   .sky-zag:after {
-    position: absolute;
-    left: 30%;
-    bottom: -31px;
+    display: block;
+    margin: 30px auto;
     content: '';
     background-image: url("../img/star-f.png");
     background-repeat: no-repeat;
-    width: 508px;
+    background-size: 100%;
+    max-width: 508px;
+    width: 100%;
     height: 9px; }
 
 .positive-qualities {
@@ -287,9 +288,8 @@ body .lslide {
 .zag-amenities {
   position: relative; }
   .zag-amenities:after {
-    position: absolute;
-    left: 43%;
-    bottom: -30px;
+    display: block;
+    margin: 15px auto;
     width: 173px;
     height: 11px;
     background-image: url("../img/star-p.png");
@@ -577,10 +577,9 @@ body .production-slider .lSAction > .lSPrev {
     position: relative;
     letter-spacing: 0.7px; }
     .zag-footer h2:after {
-      position: absolute;
+      display: block;
+      margin: 15px auto;
       content: '';
-      bottom: -20px;
-      left: 43%;
       background-image: url("../img/star-p.png");
       background-repeat: no-repeat;
       width: 173px;
@@ -765,35 +764,127 @@ body .footer-form .email-form {
   .phone {
     padding-left: 20%; } }
 
-@media only screen and (max-width: 1055px) {
-  .head-inf p:after {
-    left: 42%; } }
-
 @media only screen and (max-width: 1050px) {
   .head-inf h1 {
     font-size: 6.7vw; } }
 
 @media only screen and (max-width: 991px) {
-  .head-inf p:after {
-    left: 41%; }
+  .medal:after {
+    display: block;
+    position: inherit;
+    margin: 20px auto;
+    left: 0; }
+  body .nine:after {
+    display: block;
+    position: inherit;
+    margin: 20px auto;
+    left: 0; }
+  body .lamp:after {
+    display: block;
+    position: inherit;
+    margin: 20px auto;
+    left: 0; }
   .head-inf p {
-    font-size: 2.7vw; } }
+    font-size: 2.7vw; }
+  .advantages {
+    text-align: center; }
+    .advantages li {
+      padding-left: 0;
+      padding-bottom: 30px; }
+  .advantages a {
+    float: none;
+    margin-right: 0; }
+  .form {
+    float: none;
+    margin-right: 0; }
+  .forma {
+    margin: 0 auto; }
+  .advantages-item {
+    margin-right: 0;
+    margin-left: 0; }
+  .advantages-item_r p {
+    padding: 0; }
+  body .advantages-item_m p {
+    padding: 0; }
+  .head-bottom h2 {
+    font-size: 7.3vw; }
+  .head-bottom h2:after {
+    left: 41%; }
+  .head-bottom p {
+    padding-bottom: 50px;
+    font-size: 2.4vw; }
+  .graf {
+    padding: 0;
+    text-align: center; }
+  .choice-graf {
+    margin: 0 auto; }
+  .sky-zag {
+    font-size: 7vw; }
+  .star {
+    background-size: cover; }
+  .zag-amenities-height h3 {
+    font-size: 8vw; }
+  .all-amenities a {
+    padding-right: 0; }
+  .want-item {
+    padding-right: 0; }
+  .solutions .graf {
+    padding-left: 0; }
+  .img-solutions {
+    padding-left: 0;
+    margin: 0 auto; }
+  .table-item {
+    font-size: 2.1vw; }
+  .zag-footer a:after {
+    left: 42%; }
+  .footer-contact span {
+    padding: 0; }
+  .footer-contact p {
+    padding: 0; }
+  body .footer-form .forma textarea {
+    max-width: inherit;
+    width: 90%;
+    margin: 0 auto; }
+  body .item-pos {
+    padding: 0 !important; }
+  body .production-slider .lSSlideOuter .lSPager.lSGallery li {
+    min-height: auto;
+    height: 70px; }
+  body .want-item {
+    padding: 0 !important;
+    margin: 20px auto; }
+  .zag-footer a:after {
+    display: block;
+    margin: 10px auto;
+    position: inherit;
+    left: auto; }
+  .zag-footer a {
+    padding: 0; }
+  body .production-slider .lSSlideOuter .lSPager.lSGallery li {
+    margin-right: 13px !important;
+    top: -115px; }
+  .table-item img {
+    width: 15%; }
+  .footer-contact p {
+    font-size: 4vw; } }
 
 @media only screen and (max-width: 936px) {
   .phone {
     padding-left: 10%; } }
 
-@media only screen and (max-width: 893px) {
-  .head-inf p:after {
+@media only screen and (max-width: 900px) {
+  body .copirate p {
+    float: none !important; }
+  .copirate a {
+    padding-left: 0; } }
+
+@media only screen and (max-width: 850px) {
+  .head-bottom h2:after {
     left: 39%; } }
 
 @media only screen and (max-width: 827px) {
   .phone {
     padding-left: 5%; } }
-
-@media only screen and (max-width: 779px) {
-  .head-inf p:after {
-    left: 39%; } }
 
 @media only screen and (max-width: 784px) {
   .logo {
@@ -805,17 +896,15 @@ body .footer-form .email-form {
   .head-inf h1 {
     font-size: 6.4vw; } }
 
-@media only screen and (max-width: 718px) {
-  .head-inf p:after {
-    left: 38%; } }
-
-@media only screen and (max-width: 705px) {
-  .head-inf p:after {
-    left: 38%; } }
+@media only screen and (max-width: 700px) {
+  .head-bottom p {
+    font-size: 2.3vw; } }
 
 @media only screen and (max-width: 650px) {
-  .head-inf p:after {
-    left: 36.3%; } }
+  .head-bottom h2:after {
+    left: 37%; }
+  .zag-amenities h3 {
+    font-size: 10vw; } }
 
 @media only screen and (max-width: 600px) {
   .phone {
@@ -832,41 +921,58 @@ body .footer-form .email-form {
   .sandwich {
     width: 51px; }
   .head-inf h1 {
-    line-height: 55px; }
-  .head-inf p:after {
-    left: 35%; } }
-
-@media only screen and (max-width: 550px) {
-  .head-inf p:after {
-    left: 33%; } }
+    line-height: 55px; } }
 
 @media only screen and (max-width: 500px) {
-  .head-inf p:after {
-    left: 31%; } }
-
-@media only screen and (max-width: 450px) {
-  .head-inf p:after {
-    left: 30%; } }
+  .footer-contact p {
+    font-size: 4.5vw; } }
 
 @media only screen and (max-width: 460px) {
   .head-inf h1 {
-    font-size: 6vw; } }
+    font-size: 6vw; }
+  .table-item {
+    font-size: 3vw;
+    line-height: 30px; } }
 
 @media only screen and (max-width: 400px) {
-  .head-inf p:after {
-    left: 24%; } }
+  .choice-graf {
+    text-align: center; }
+  .choice-graf p {
+    float: none;
+    padding: 0; }
+  body .choice-graf tt {
+    float: none !important;
+    padding: 0; }
+  .icon-nine:after {
+    left: 15%;
+    top: 10px; }
+  .icon-bol:after {
+    left: 15%;
+    top: 10px; }
+  .icon-stars:after {
+    left: 15%;
+    top: 10px; } }
+
+@media only screen and (max-width: 380px) {
+  .icon-nine:after {
+    left: 10%;
+    top: 10px; }
+  .icon-bol:after {
+    left: 10%;
+    top: 10px; }
+  .icon-stars:after {
+    left: 10%;
+    top: 10px; } }
 
 @media only screen and (max-width: 359px) {
   .head-inf p {
     font-size: 3.7vw; } }
 
-@media only screen and (max-width: 350px) {
-  .head-inf p:after {
-    left: 20%; } }
-
 @media only screen and (max-width: 320px) {
-  .head-inf p:after {
-    left: 17.3%; } }
+  .footer-contact p {
+    font-size: 6vw; }
+  .table-item {
+    min-height: 300px; } }
 
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {
