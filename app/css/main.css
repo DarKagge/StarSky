@@ -322,7 +322,8 @@ body .lslide {
   padding-bottom: 85px; }
 
 .production-slider {
-  position: relative; }
+  position: relative;
+  width: 100%; }
 
 body .production-slider .lSSlideOuter {
   padding-left: 0 !important;
@@ -719,35 +720,153 @@ body .footer-form .email-form {
     padding-top: 22px;
     letter-spacing: 1px;
     text-decoration: underline; }
+    .copirate a:hover {
+      text-decoration: none; }
 
 /* Large Devices, Wide Screens */
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
-  .wrapper {
-    width: auto; }
-  .pad {
-    padding: 50px 5px !important; }
-  footer {
-    text-align: center; }
-    footer .wrapper {
-      width: auto; }
-    footer ul {
-      float: none;
-      display: inline-block;
-      text-align: center; }
-      footer ul li {
-        margin-bottom: 10px;
-        margin-right: 0;
-        float: none; }
-    footer .gs {
-      float: none;
-      display: block; } }
+@media only screen and (max-width: 1264px) {
+  body .production-slider .lSSlideOuter .lSPager.lSGallery {
+    width: 93% !important;
+    left: 5% !important; }
+  body .production-slider .lSSlideOuter .lSPager.lSGallery li {
+    max-width: inherit !important;
+    width: 15% !important; } }
 
-/* Small Devices, Tablets */
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-  .pad {
-    padding: 20px 5px !important; } }
+@media only screen and (max-width: 1214px) {
+  .head-menu {
+    padding-left: 30px; }
+  .phone {
+    padding-left: 10px; }
+  .client-dil img {
+    width: 100%; }
+  body .production-slider .lSSlideOuter .lSPager.lSGallery {
+    left: 1%; } }
+
+@media only screen and (max-width: 1189px) {
+  .phone {
+    padding-left: 0px; }
+  .head-menu {
+    padding-left: 18px; }
+  .logo {
+    padding-left: 20px; } }
+
+@media only screen and (max-width: 1140px) {
+  .logo {
+    padding-left: 0; } }
+
+@media only screen and (max-width: 1120px) {
+  .head-menu {
+    display: none; }
+  .head-popup {
+    float: right;
+    margin-right: 20px; }
+  body .toggle_mnu {
+    display: block !important; }
+  .phone {
+    padding-left: 20%; } }
+
+@media only screen and (max-width: 1055px) {
+  .head-inf p:after {
+    left: 42%; } }
+
+@media only screen and (max-width: 1050px) {
+  .head-inf h1 {
+    font-size: 6.7vw; } }
+
+@media only screen and (max-width: 991px) {
+  .head-inf p:after {
+    left: 41%; }
+  .head-inf p {
+    font-size: 2.7vw; } }
+
+@media only screen and (max-width: 936px) {
+  .phone {
+    padding-left: 10%; } }
+
+@media only screen and (max-width: 893px) {
+  .head-inf p:after {
+    left: 39%; } }
+
+@media only screen and (max-width: 827px) {
+  .phone {
+    padding-left: 5%; } }
+
+@media only screen and (max-width: 779px) {
+  .head-inf p:after {
+    left: 39%; } }
+
+@media only screen and (max-width: 784px) {
+  .logo {
+    float: none;
+    text-align: center;
+    margin: 0 auto; } }
+
+@media only screen and (max-width: 723px) {
+  .head-inf h1 {
+    font-size: 6.4vw; } }
+
+@media only screen and (max-width: 718px) {
+  .head-inf p:after {
+    left: 38%; } }
+
+@media only screen and (max-width: 705px) {
+  .head-inf p:after {
+    left: 38%; } }
+
+@media only screen and (max-width: 650px) {
+  .head-inf p:after {
+    left: 36.3%; } }
+
+@media only screen and (max-width: 600px) {
+  .phone {
+    display: block;
+    float: none;
+    text-align: center; }
+  .head-popup {
+    float: none; }
+  .toggle_mnu {
+    float: none;
+    margin: 0 auto;
+    width: 90px;
+    height: 70px; }
+  .sandwich {
+    width: 51px; }
+  .head-inf h1 {
+    line-height: 55px; }
+  .head-inf p:after {
+    left: 35%; } }
+
+@media only screen and (max-width: 550px) {
+  .head-inf p:after {
+    left: 33%; } }
+
+@media only screen and (max-width: 500px) {
+  .head-inf p:after {
+    left: 31%; } }
+
+@media only screen and (max-width: 450px) {
+  .head-inf p:after {
+    left: 30%; } }
+
+@media only screen and (max-width: 460px) {
+  .head-inf h1 {
+    font-size: 6vw; } }
+
+@media only screen and (max-width: 400px) {
+  .head-inf p:after {
+    left: 24%; } }
+
+@media only screen and (max-width: 359px) {
+  .head-inf p {
+    font-size: 3.7vw; } }
+
+@media only screen and (max-width: 350px) {
+  .head-inf p:after {
+    left: 20%; } }
+
+@media only screen and (max-width: 320px) {
+  .head-inf p:after {
+    left: 17.3%; } }
 
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {

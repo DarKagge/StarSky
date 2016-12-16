@@ -380,7 +380,8 @@ body .lslide{
 }
 .production-slider{
     position: relative;
-}
+    width: 100%;
+  }
 body .production-slider .lSSlideOuter{
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -821,6 +822,9 @@ body .footer-form .email-form{
     padding-top: 22px;
     letter-spacing: 1px;
     text-decoration: underline;
+    &:hover{
+      text-decoration: none;
+    }
   }
 }
 //ALWAYS END
