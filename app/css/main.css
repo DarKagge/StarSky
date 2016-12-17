@@ -727,10 +727,40 @@ body .footer-form .email-form {
   margin: 0 auto;
   position: relative; }
   .first-popup img {
-    width: 100%; }
+    width: 50%;
+    min-height: 456px; }
+
+.mfp-close {
+  top: -30px;
+  right: -10px;
+  opacity: 1; }
+
+.mfp-close:active {
+  top: -30px; }
+
+.mfp-close-btn-in .mfp-close {
+  color: #fff; }
 
 .first-popup .forma {
-  background-color: #fff; }
+  background-color: #fff;
+  float: left; }
+  .first-popup .forma p {
+    color: #333333;
+    padding-top: 0; }
+  .first-popup .forma h2 {
+    color: #333333;
+    position: relative; }
+    .first-popup .forma h2:after {
+      display: inline-block;
+      margin: 10px auto;
+      content: '';
+      background-image: url("../img/star-form.png");
+      width: 141px;
+      height: 9px;
+      bottom: 0; }
+  .first-popup .forma input {
+    -webkit-box-shadow: 0 0 10px rgba(205, 55, 205, 0.5);
+    box-shadow: 0 0 10px rgba(205, 55, 205, 0.5); }
 
 .ThankYou {
   max-width: 766px;
