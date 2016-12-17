@@ -1,4 +1,5 @@
 @import url(../libs/lightslider/dist/css/lightslider.min.css);
+@import url(../libs/magnific-popup/dist/magnific-popup.css);
 .inner {
   max-width: 1230px;
   margin: 0 auto; }

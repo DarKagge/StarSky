@@ -722,6 +722,11 @@ body .footer-form .email-form {
     .copirate a:hover {
       text-decoration: none; }
 
+.first-popup {
+  max-width: 770px;
+  margin: 0 auto;
+  position: relative; }
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1264px) {
   body .production-slider .lSSlideOuter .lSPager.lSGallery {

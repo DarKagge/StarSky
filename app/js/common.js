@@ -179,4 +179,28 @@ $(function() {
 
 
 
+
+
+
+
+
+    $('.open-popup-link').magnificPopup({
+        type:'inline',
+        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+    });
+    $(".info-item > div:first-child").show();
+    $(".service-item .item").on("click",function () {
+        var id  = $(this).data("target");
+        $("#"+id).show().siblings("div").hide();
+    });
+
+
+
+    $("a[href*='#']").mPageScroll2id();
+
+
+
+
+
+
 });
