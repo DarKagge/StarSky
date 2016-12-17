@@ -816,13 +816,14 @@ body .footer-form .email-form{
   }
   a{
     color: #fff;
-    padding-left: 47px;
+    margin-left: 47px;
     display: inline-block;
     padding-top: 22px;
     letter-spacing: 1px;
-    text-decoration: underline;
+    border-bottom: 1px dashed;
     &:hover{
       text-decoration: none;
+        border-bottom: none;
     }
   }
 }

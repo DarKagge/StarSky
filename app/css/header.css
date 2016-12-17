@@ -240,6 +240,14 @@ body .phone-form {
   background-image: url("../img/phone.png");
   background-repeat: no-repeat;
   background-position: 15px; }
+  body .phone-form::-webkit-input-placeholder {
+    color: #df8fdf; }
+  body .phone-form::-moz-placeholder {
+    color: #df8fdf; }
+  body .phone-form:-moz-placeholder {
+    color: #df8fdf; }
+  body .phone-form:-ms-input-placeholder {
+    color: #df8fdf; }
 
 .head-advantages {
   margin-top: 95px; }

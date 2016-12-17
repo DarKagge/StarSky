@@ -128,9 +128,12 @@
 									визуализацию</h2>
 								<p>Оставьте номер телефона и мы<br>
 									свяжемся с вами в течении 17 минут</p>
-								<input type="text" class="name-form" placeholder="Введите ваше имя">
-								<input type="text" class="phone-form" placeholder="Введите номер телефона">
-								<button>да, я хочу Получить</button>
+								<input type="hidden" name="project_name" value="StarSky">
+								<input type="hidden" name="admin_email" value="ElectroDeggi33759@yandex.ru">
+								<input type="hidden" name="form_subject" value="Заявка на визуализацию">
+								<input type="text" class="name-form" placeholder="Введите ваше имя" required>
+								<input type="text" class="phone-form" placeholder="Введите номер телефона" required>
+								<button type="submit" name="send">да, я хочу Получить</button>
 							</form>
 						</div>
 					</div>
@@ -849,9 +852,12 @@
 								<p>Оставьте номер телефона и мы свяжемся с вами в течении 17 минут</p>
 								<div class="row">
 									<div class="col-xs-12 col-md-6">
-										<input type="text" class="name-form" placeholder="Введите ваше имя">
-										<input type="text" class="phone-form" placeholder="Введите номер телефона">
-										<input type="text" class="email-form" placeholder="Введите ваш E-mail">
+										<input type="hidden" name="project_name" value="StarSky">
+										<input type="hidden" name="admin_email" value="ElectroDeggi33759@yandex.ru">
+										<input type="hidden" name="form_subject" value="Заявка на визуализацию">
+										<input type="text" class="name-form" placeholder="Введите ваше имя" required>
+										<input type="text" class="phone-form" placeholder="Введите номер телефона" required>
+										<input type="text" class="email-form" placeholder="Введите ваш E-mail" required>
 									</div>
 									<div class="col-xs-12 col-md-6">
 										<textarea name="text-form" id="">
@@ -859,7 +865,7 @@
 										</textarea>
 									</div>
 								</div>
-								<button>Отправить сообщение</button>
+								<button type="submit" name="send">Отправить сообщение</button>
 							</form>
 						</div>
 						<div class="footer-social">
@@ -893,9 +899,9 @@
                     <input type="hidden" name="project_name" value="StarSky">
                     <input type="hidden" name="admin_email" value="ElectroDeggi33759@yandex.ru">
                     <input type="hidden" name="form_subject" value="Заявка на визуализацию">
-                    <input type="text" class="name-form" placeholder="Введите ваше имя">
-                    <input type="text" class="phone-form" placeholder="Введите номер телефона">
-                    <button name="send">да, я хочу Получить</button>
+                    <input type="text" class="name-form" placeholder="Введите ваше имя" required>
+                    <input type="text" class="phone-form" placeholder="Введите номер телефона" required>
+                    <button type="submit" name="send">да, я хочу Получить</button>
                 </form>
                 <img src="img/list.jpg" alt="">
 

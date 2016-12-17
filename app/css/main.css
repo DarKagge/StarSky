@@ -714,13 +714,14 @@ body .footer-form .email-form {
     letter-spacing: 0.8px; }
   .copirate a {
     color: #fff;
-    padding-left: 47px;
+    margin-left: 47px;
     display: inline-block;
     padding-top: 22px;
     letter-spacing: 1px;
-    text-decoration: underline; }
+    border-bottom: 1px dashed; }
     .copirate a:hover {
-      text-decoration: none; }
+      text-decoration: none;
+      border-bottom: none; }
 
 .first-popup {
   max-width: 780px;

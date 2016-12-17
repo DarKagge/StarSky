@@ -274,6 +274,9 @@ body .phone-form{
   background-image: url("../img/phone.png");
   background-repeat: no-repeat;
   background-position: 15px;
+  @include placeholder{
+    color: #df8fdf;
+  }
 }
 
 .head-advantages{
