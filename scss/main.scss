@@ -833,10 +833,44 @@ body .footer-form .email-form{
     max-width:770px;
     margin: 0 auto;
     position: relative;
+    img{
+        width: 100%;
+    }
+}
+.first-popup .forma{
+    background-color: #fff;
 }
 
 
+.ThankYou{
+    max-width: 766px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px 85px;
+    button{
+        font-weight:700;
+        font-size:16px;
+        background-color: #c732cb;
+        margin: 24px auto;
+        text-align: center;
+        padding: 11px 33px;
+        border-radius: 22px;
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow: 2px 3px 3px rgba(0,0,0,0.3);
+        &:hover{
+            background-color: #bd26bf;
+        }
 
+    }
+
+}
+.video{
+    max-width: 432px;
+    margin: 20px auto;
+    min-height: 224px;
+}
 
 //ALWAYS END
 @import "media.scss";

@@ -726,6 +726,37 @@ body .footer-form .email-form {
   max-width: 770px;
   margin: 0 auto;
   position: relative; }
+  .first-popup img {
+    width: 100%; }
+
+.first-popup .forma {
+  background-color: #fff; }
+
+.ThankYou {
+  max-width: 766px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px 85px; }
+  .ThankYou button {
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #c732cb;
+    margin: 24px auto;
+    text-align: center;
+    padding: 11px 33px;
+    -webkit-border-radius: 22px;
+    border-radius: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3); }
+    .ThankYou button:hover {
+      background-color: #bd26bf; }
+
+.video {
+  max-width: 432px;
+  margin: 20px auto;
+  min-height: 224px; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1264px) {
@@ -822,9 +853,10 @@ body .footer-form .email-form {
     padding: 0;
     text-align: center; }
   .choice-graf {
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
   .sky-zag {
-    font-size: 7vw; }
+    font-size: 7.3vw; }
   .star {
     background-size: cover; }
   .zag-amenities-height h3 {
@@ -930,7 +962,9 @@ body .footer-form .email-form {
 
 @media only screen and (max-width: 500px) {
   .footer-contact p {
-    font-size: 4.5vw; } }
+    font-size: 4.5vw; }
+  .head-bottom p {
+    font-size: 3vw; } }
 
 @media only screen and (max-width: 460px) {
   .head-inf h1 {
@@ -967,7 +1001,9 @@ body .footer-form .email-form {
     top: 10px; }
   .icon-stars:after {
     left: 10%;
-    top: 10px; } }
+    top: 10px; }
+  .title-choice h3 {
+    font-size: 7.6vw; } }
 
 @media only screen and (max-width: 359px) {
   .head-inf p {

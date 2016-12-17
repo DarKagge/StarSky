@@ -92,6 +92,8 @@ header {
     border-radius: 20px;
     text-transform: uppercase;
     letter-spacing: 0.1px; }
+    .head-popup a:focus {
+      text-decoration: none; }
     .head-popup a:hover {
       text-decoration: none;
       background-color: #cc33cc;
