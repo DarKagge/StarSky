@@ -723,11 +723,12 @@ body .footer-form .email-form {
       text-decoration: none; }
 
 .first-popup {
-  max-width: 770px;
+  max-width: 780px;
   margin: 0 auto;
   position: relative; }
   .first-popup img {
-    width: 50%;
+    max-width: 365px;
+    width: 100%;
     min-height: 456px; }
 
 .mfp-close {
@@ -835,6 +836,11 @@ body .footer-form .email-form {
     font-size: 6.7vw; } }
 
 @media only screen and (max-width: 991px) {
+  .first-popup img {
+    max-width: 54%; }
+  .mfp-close {
+    top: 0;
+    right: 5px; }
   .medal:after {
     display: block;
     position: inherit;
@@ -959,13 +965,33 @@ body .footer-form .email-form {
     text-align: center;
     margin: 0 auto; } }
 
+@media only screen and (max-width: 777px) {
+  .first-popup img {
+    max-width: inherit;
+    width: 53%; } }
+
 @media only screen and (max-width: 723px) {
   .head-inf h1 {
     font-size: 6.4vw; } }
 
+@media only screen and (max-width: 712px) {
+  .first-popup .forma {
+    float: none;
+    margin: 0 auto; }
+  .first-popup {
+    text-align: center; }
+  .mfp-close {
+    top: 0;
+    right: 0; } }
+
 @media only screen and (max-width: 700px) {
   .head-bottom p {
     font-size: 2.3vw; } }
+
+@media only screen and (max-width: 674px) {
+  .first-popup img {
+    width: 100%;
+    max-width: 360px; } }
 
 @media only screen and (max-width: 650px) {
   .head-bottom h2:after {
@@ -1002,6 +1028,10 @@ body .footer-form .email-form {
   .table-item {
     font-size: 3vw;
     line-height: 30px; } }
+
+@media only screen and (max-width: 410px) {
+  .mfp-close-btn-in .mfp-close {
+    color: #333333; } }
 
 @media only screen and (max-width: 400px) {
   .choice-graf {

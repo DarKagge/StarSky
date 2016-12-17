@@ -830,12 +830,13 @@ body .footer-form .email-form{
 
 
 .first-popup{
-    max-width:770px;
+    max-width:780px;
     margin: 0 auto;
     position: relative;
 
     img{
-        width: 50%;
+        max-width: 365px;
+        width: 100%;
         min-height: 456px;
 
     }
