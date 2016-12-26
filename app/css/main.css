@@ -1168,6 +1168,10 @@ body .choice-graf_b {
     margin-bottom: 35px; } }
 
 @media only screen and (max-width: 600px) {
+  .top {
+    position: absolute; }
+  .bgTop {
+    background-color: transparent; }
   .head-inf {
     margin-top: 315px; }
   .phone {
