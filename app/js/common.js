@@ -12,8 +12,6 @@ $(function() {
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
-	// fancybox
-	$("a.modal").fancybox();
 });
 
 //Форма отправки 2.0
@@ -65,11 +63,15 @@ $(function() {
 
             $.ajax({
                 type: 'POST',
-                url: '/mail.php',
+                url: 'mail.php',
                 data: msg,
                 success: function(data) {
                     $.magnificPopup.close();
-                    $("#ThankYou span").text(name);
+                    $("#ThankYou h2 span").text(name);
+                    form[0].reset();
+                    $(send_btn).each(function() {
+                        $(this).attr('disabled', false);
+                    });
                     $("a[href='#ThankYou']").click();
                 },
                 error: function(xhr, str) {
@@ -81,20 +83,21 @@ $(function() {
     });
 
 
-$(document).ready(function () {
-    $('.imageGallery').lightSlider({
-        gallery: true,
-        item: 1,
-        vertical: true,
-        verticalHeight: 295,
-        vThumbWidth: 50,
-        thumbItem: 8,
-        thumbMargin: 4,
-        slideMargin: 0,
-
-    });
+$('.imageGallery').lightSlider({
+    gallery: true,
+    item: 1,
+    vertical: true,
+    verticalHeight: 334,
+    vThumbWidth: 50,
+    thumbItem: 8,
+    thumbMargin: 4,
+    slideMargin: 0,
+    controls: false,
+    onSliderLoad: function () {
+        var pager = $(".production-slider .lSPager").remove();
+        $(".production-slider .lSSlideOuter").prepend(pager);
+    }
 });
-
 
 $('.imgeslider').lightSlider({
     gallery: true,
@@ -103,8 +106,7 @@ $('.imgeslider').lightSlider({
     thumbItem: 9,
     slideMargin: 0,
     enableDrag: false,
-    currentPagerPosition: 'top',
-
+    currentPagerPosition: 'top'
 });
 
 
@@ -133,7 +135,7 @@ $(".toggle_mnu").click(function() {
         $(".top_text").css("opacity", ".1");
         $(".top_mnu").fadeIn(600);
         $(".top_mnu li a").addClass("fadeInUp animated");
-    };
+    }
 });
 
 
@@ -158,7 +160,7 @@ $(".service-item .item").on("click",function () {
 
 
 
-$("a[href*='#']").mPageScroll2id();
+$(".scroll2id").mPageScroll2id();
 
 
 
