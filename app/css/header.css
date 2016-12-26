@@ -27,9 +27,6 @@ a, button, input, textarea {
 button:hover {
   cursor: pointer; }
 
-.hidden {
-  display: none; }
-
 header {
   background-image: url("../img/bg-sky.jpg");
   min-height: 1620px;
@@ -58,8 +55,9 @@ header {
     font-weight: 500;
     margin-right: 29.5px;
     display: block;
-    letter-spacing: 0.3px; }
-    .head-menu a:hover {
+    letter-spacing: 0.3px;
+    border-bottom: 2px solid transparent; }
+    .head-menu a:hover, .head-menu a:focus {
       border-bottom: 2px solid #cc33cc;
       text-decoration: none; }
   .head-menu li {
@@ -182,17 +180,17 @@ body .lamp {
   margin-top: 51px; }
 
 .forma {
-  border: 1px solid #d050d0;
-  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid #d050d0;
+  background-color: rgba(0, 0, 0, 0.65);
   text-align: center;
   width: 100%;
-  max-width: 366px;
+  max-width: 401px;
   padding: 15px;
-  padding-top: 37px; }
+  padding-top: 32px; }
   .forma h2 {
     font-size: 26px;
-    font-weight: 800;
-    line-height: 38px;
+    font-weight: 700;
+    line-height: 35px;
     letter-spacing: -0.2px; }
   .forma p {
     font-size: 18px;
@@ -202,7 +200,7 @@ body .lamp {
   .forma input {
     display: inline-block;
     position: relative;
-    width: 91%;
+    width: 82%;
     background-color: #fff;
     -webkit-border-radius: 20px;
     border-radius: 20px;
@@ -210,24 +208,33 @@ body .lamp {
     margin-bottom: 18px;
     padding: 8px 38px;
     color: #666666;
-    letter-spacing: -0.6px; }
+    letter-spacing: -0.6px;
+    border: 1px solid #fff; }
   .forma button {
     text-transform: uppercase;
-    display: block;
-    padding: 10px 48px;
+    display: inline-block;
+    padding: 10px 35px;
     text-align: center;
+    width: 82%;
     margin: 15px auto;
     margin-bottom: 34px;
     color: #fff;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 200px;
+    border-radius: 200px;
     letter-spacing: 0.7px;
     font-weight: 800;
     font-size: 16px;
     background-color: #bd26bf;
-    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3); }
+    border: 1px solid #bd26bf;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 4px 15px rgba(236, 88, 242, 0.35);
+    box-shadow: 0 4px 15px rgba(236, 88, 242, 0.35); }
     .forma button:hover {
       background-color: #8f2390; }
+  .forma.forma-top {
+    border: 2px solid #d352d4;
+    -webkit-box-shadow: 0 3px 15px rgba(196, 47, 200, 0.35);
+    box-shadow: 0 3px 15px rgba(196, 47, 200, 0.35); }
 
 body .name-form {
   background-image: url("../img/name.png");
@@ -235,7 +242,6 @@ body .name-form {
   background-position: 16px; }
 
 body .phone-form {
-  margin-left: 5px;
   color: #df8fdf;
   background-image: url("../img/phone.png");
   background-repeat: no-repeat;
@@ -260,7 +266,7 @@ body .phone-form {
   .advantages-item h2 {
     color: #ffccff;
     font-size: 65px;
-    letter-spacing: -3.5px; }
+    letter-spacing: 2.5px; }
     .advantages-item h2 span {
       font-size: 50px; }
   .advantages-item p {
@@ -287,7 +293,7 @@ body .advantages-item_m {
   .head-bottom h2 {
     font-size: 72px;
     font-weight: 400;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     position: relative; }
     .head-bottom h2:after {
       display: block;
@@ -299,7 +305,8 @@ body .advantages-item_m {
       height: 11px; }
   .head-bottom p {
     font-size: 20px;
-    letter-spacing: 1.2px; }
+    letter-spacing: 1.2px;
+    padding-bottom: 35px; }
 
 .toggle_mnu {
   width: 60px;
@@ -374,7 +381,7 @@ body .advantages-item_m {
   transition-delay: 0.1s; }
 
 .sandwich.active .sw-topper {
-  top: 9px;
+  top: 11px;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg); }

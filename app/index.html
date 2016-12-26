@@ -55,7 +55,7 @@
 
 <body>
 
-	<header>
+	<header id="about">
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -76,25 +76,25 @@
 						</button>
 						<nav class="top_mnu">
 							<ul>
-								<li><a href="#" class="_mPS2id-h">О компании<span></span></a></li>
-								<li><a href="#" class="_mPS2id-h">Наши проекты<span></span></a></li>
-								<li><a href="#" class="_mPS2id-h">Галерея<span></span></a></li>
-								<li><a href="#" class="_mPS2id-h">Контакты<span></span></a></li>
+								<li><a href="#about" class="scroll2id">О компании<span></span></a></li>
+								<li><a href="#projects" class="scroll2id">Наши проекты<span></span></a></li>
+								<li><a href="#gallery" class="scroll2id">Галерея<span></span></a></li>
+								<li><a href="#contacts" class="scroll2id">Контакты<span></span></a></li>
 							</ul>
 						</nav>
 						<div class="head-menu">
 							<ul>
-								<li><a href="#">О компании</a></li>
-								<li><a href="#">Наши проекты</a></li>
-								<li><a href="#">Галерея</a></li>
-								<li><a href="#">Контакты</a></li>
+								<li><a href="#about" class="scroll2id">О компании</a></li>
+								<li><a href="#projects" class="scroll2id">Наши проекты</a></li>
+								<li><a href="#gallery" class="scroll2id">Галерея</a></li>
+								<li><a href="#contacts" class="scroll2id">Контакты</a></li>
 							</ul>
 						</div>
 						<div class="phone">
 							<h3><span>+7(495)</span> 325 86 52</h3>
 						</div>
 						<div class="head-popup">
-							<a href="#popup" class="open-popup-link">задать вопрос</a>
+							<a href="#popup2" class="open-popup-link">задать вопрос</a>
 						</div>
 					</div>
 
@@ -116,23 +116,23 @@
 								<li class="nine">У вас дома через 9 дней</li>
 								<li class="lamp">Уникальный дизайн для Вас</li>
 							</ul>
-							<a href="#">
+							<a href="#projects" class="scroll2id">
 								<img src="img/mouse.png" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-5">
 						<div class="form">
-							<form action="" class="forma">
+							<form class="forma forma-top">
 								<h2>Получите бесплатную<br>
 									визуализацию</h2>
 								<p>Оставьте номер телефона и мы<br>
 									свяжемся с вами в течении 17 минут</p>
 								<input type="hidden" name="project_name" value="StarSky">
-								<input type="hidden" name="admin_email" value="ElectroDeggi33759@yandex.ru">
+								<input type="hidden" name="admin_email" value="bux-center@ya.ru">
 								<input type="hidden" name="form_subject" value="Заявка на визуализацию">
-								<input type="text" class="name-form" placeholder="Введите ваше имя" required>
-								<input type="text" class="phone-form" placeholder="Введите номер телефона" required>
+								<input type="text" class="name-form" name="name" placeholder="Введите ваше имя" required>
+								<input type="text" class="phone-form" name="phone" placeholder="Введите номер телефона" required>
 								<button type="submit" name="send">да, я хочу Получить</button>
 							</form>
 						</div>
@@ -169,7 +169,7 @@
 
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="projects">
 					<div class="col-md-12">
 						<div class="head-bottom">
 							<h2>Выполненные проекты</h2>
@@ -208,24 +208,16 @@
 											<p class="icon-stars">Количество звезд</p>
 											<tt class="pull-right">570 шт.</tt>
 										</div>
-										<button>Получить бесплатную визуализацию</button>
+										<a class="graf-btn open-popup-link" href="#popup" data-item="Сделать звездное небо в детской комнате">Получить бесплатную визуализацию</a>
 									</div>
 								</div>
 								<div class="col-xs-12 col-md-6">
 									<div class="choice-slider">
 										<ul class="imageGallery">
-											<li data-thumb="img/city.jpg" data-src="img/largeImage.jpg">
-												<img src="img/city.jpg" />
-											</li>
-											<li data-thumb="img/list.jpg" data-src="img/largeImage1.jpg">
-												<img src="img/list.jpg" />
-											</li>
-											<li data-thumb="img/paint-city.jpg" data-src="img/largeImage2.jpg">
-												<img src="img/paint-city.jpg" />
-											</li>
-											<li data-thumb="img/space.jpg" data-src="img/largeImage2.jpg">
-												<img src="img/space.jpg" />
-											</li>
+											<li data-thumb="img/city.jpg" style="background-image: url(img/city.jpg)"></li>
+											<li data-thumb="img/list.jpg" style="background-image: url(img/list.jpg)"></li>
+											<li data-thumb="img/paint-city.jpg" style="background-image: url(img/paint-city.jpg)"></li>
+											<li data-thumb="img/space.jpg" style="background-image: url(img/space.jpg)"></li>
 										</ul>
 									</div>
 								</div>
@@ -254,24 +246,16 @@
 											<p class="icon-stars">Количество звезд</p>
 											<tt class="pull-right">570 шт.</tt>
 										</div>
-										<button>Получить бесплатную визуализацию</button>
+										<a class="graf-btn open-popup-link" href="#popup" data-item="Сделать потолок в гостинной">Получить бесплатную визуализацию</a>
 									</div>
 								</div>
 								<div class="col-xs-12 col-md-6">
 									<div class="choice-slider">
 										<ul class="imageGallery">
-											<li data-thumb="img/list.jpg" data-src="img/largeImage1.jpg">
-												<img src="img/list.jpg" />
-											</li>
-											<li data-thumb="img/city.jpg" data-src="img/largeImage.jpg">
-												<img src="img/city.jpg" />
-											</li>
-											<li data-thumb="img/paint-city.jpg" data-src="img/largeImage2.jpg">
-												<img src="img/paint-city.jpg" />
-											</li>
-											<li data-thumb="img/space.jpg" data-src="img/largeImage2.jpg">
-												<img src="img/space.jpg" />
-											</li>
+											<li data-thumb="img/city.jpg" style="background-image: url(img/city.jpg)"></li>
+											<li data-thumb="img/list.jpg" style="background-image: url(img/list.jpg)"></li>
+											<li data-thumb="img/paint-city.jpg" style="background-image: url(img/paint-city.jpg)"></li>
+											<li data-thumb="img/space.jpg" style="background-image: url(img/space.jpg)"></li>
 										</ul>
 									</div>
 								</div>
@@ -300,24 +284,16 @@
 											<p class="icon-stars">Количество звезд</p>
 											<tt class="pull-right">960 шт.</tt>
 										</div>
-										<button>Получить бесплатную визуализацию</button>
+										<a class="graf-btn open-popup-link" href="#popup" data-item="Сделать потолок в бассейне загородного дома">Получить бесплатную визуализацию</a>
 									</div>
 								</div>
 								<div class="col-xs-12 col-md-6">
 									<div class="choice-slider">
 										<ul class="imageGallery">
-											<li data-thumb="img/paint-city.jpg" data-src="img/largeImage2.jpg">
-												<img src="img/paint-city.jpg" />
-											</li>
-											<li data-thumb="img/city.jpg" data-src="img/largeImage.jpg">
-												<img src="img/city.jpg" />
-											</li>
-											<li data-thumb="img/list.jpg" data-src="img/largeImage1.jpg">
-												<img src="img/list.jpg" />
-											</li>
-											<li data-thumb="img/space.jpg" data-src="img/largeImage2.jpg">
-												<img src="img/space.jpg" />
-											</li>
+											<li data-thumb="img/city.jpg" style="background-image: url(img/city.jpg)"></li>
+											<li data-thumb="img/list.jpg" style="background-image: url(img/list.jpg)"></li>
+											<li data-thumb="img/paint-city.jpg" style="background-image: url(img/paint-city.jpg)"></li>
+											<li data-thumb="img/space.jpg" style="background-image: url(img/space.jpg)"></li>
 										</ul>
 									</div>
 								</div>
@@ -346,24 +322,16 @@
 											<p class="icon-stars">Количество звезд</p>
 											<tt class="pull-right">1570 шт.</tt>
 										</div>
-										<button>Получить бесплатную визуализацию</button>
+										<a class="graf-btn open-popup-link" href="#popup" data-item="Сделать дизайн для ресторана на улице Тверская">Получить бесплатную визуализацию</a>
 									</div>
 								</div>
 								<div class="col-xs-12 col-md-6">
 									<div class="choice-slider">
 										<ul class="imageGallery">
-											<li data-thumb="img/space.jpg" data-src="img/largeImage2.jpg">
-												<img src="img/space.jpg" />
-											</li>
-											<li data-thumb="img/city.jpg" data-src="img/largeImage.jpg">
-												<img src="img/city.jpg" />
-											</li>
-											<li data-thumb="img/list.jpg" data-src="img/largeImage1.jpg">
-												<img src="img/list.jpg" />
-											</li>
-											<li data-thumb="img/paint-city.jpg" data-src="img/largeImage2.jpg">
-												<img src="img/paint-city.jpg" />
-											</li>
+											<li data-thumb="img/city.jpg" style="background-image: url(img/city.jpg)"></li>
+											<li data-thumb="img/list.jpg" style="background-image: url(img/list.jpg)"></li>
+											<li data-thumb="img/paint-city.jpg" style="background-image: url(img/paint-city.jpg)"></li>
+											<li data-thumb="img/space.jpg" style="background-image: url(img/space.jpg)"></li>
 										</ul>
 									</div>
 								</div>
@@ -460,8 +428,8 @@
 							</div>
 							<p>Наш творческий специалист специально приедет к вам в гости<br>
 								для замера и обсуждения деталей проекта</p>
-							<button>Пригласить дизайнера</button>
-							<a href="#">
+							<a class="graf-btn open-popup-link" href="#popup">Пригласить дизайнера</a>
+							<a href="#slide2" class="scroll2id">
 								<img src="img/mouse2.png" alt="">
 							</a>
 						</div>
@@ -470,7 +438,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="amenities amenities-se">
+	<section class="amenities amenities-se" id="slide2">
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -481,8 +449,8 @@
 									под ваши пожелания</h3>
 							</div>
 							<p>Мы педантичны в нашей работе и всегда доводим дизайн до желаемого<br> результата, что бы он подходил вашему характеру</p>
-							<button>Пригласить дизайнера</button>
-							<a href="#">
+							<a class="graf-btn open-popup-link" href="#popup">Пригласить дизайнера</a>
+							<a href="#slide3" class="scroll2id">
 								<img src="img/mouse2.png" alt="">
 							</a>
 						</div>
@@ -491,7 +459,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="amenities amenities-in">
+	<section class="amenities amenities-in" id="slide3">
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -501,8 +469,8 @@
 								<h3>Индивидуально<br> разработанный эскиз</h3>
 							</div>
 							<p>Нам важно превзойти Ваши ожидания. Это мы сделаем за счет уникального<br> подхода к дизайну проекта</p>
-							<button>Пригласить дизайнера</button>
-							<a href="#">
+							<a class="graf-btn open-popup-link" href="#popup">Пригласить дизайнера</a>
+							<a href="#slide4" class="scroll2id">
 								<img src="img/mouse2.png" alt="">
 							</a>
 						</div>
@@ -511,7 +479,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="amenities amenities-mon">
+	<section class="amenities amenities-mon" id="slide4">
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -521,8 +489,8 @@
 								<h3>Изготовление и монтаж</h3>
 							</div>
 							<p>На любом этапе проекта, Вы можете посетить наше производство и<br> проконтролировать процесс создания шедевра!</p>
-							<button>Пригласить дизайнера</button>
-							<a href="#">
+							<a class="graf-btn open-popup-link" href="#popup">Пригласить дизайнера</a>
+							<a href="#slide5" class="scroll2id">
 								<img src="img/mouse2.png" alt="">
 							</a>
 						</div>
@@ -531,7 +499,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="clientele">
+	<section class="clientele" id="slide5">
 			<div class="container-fluid">
 				<div class="inner">
 					<div class="row">
@@ -547,7 +515,7 @@
 				</div>
 			</div>
 	</section>
-	<section class="production">
+	<section class="production" id="gallery">
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -564,24 +532,12 @@
 	<section class="slider-mont">
 			<div class="production-slider">
 				<ul class="imgeslider">
-					<li data-thumb="img/montaj.jpg" data-src="img/largeImage.jpg">
-						<img src="img/montaj.jpg" />
-					</li>
-					<li data-thumb="img/montaj1.jpg" data-src="img/largeImage1.jpg">
-						<img src="img/montaj1.jpg" />
-					</li>
-					<li data-thumb="img/montaj2.jpg" data-src="img/largeImage1.jpg">
-						<img src="img/montaj2.jpg" />
-					</li>
-					<li data-thumb="img/montaj3.jpg" data-src="img/largeImage1.jpg">
-						<img src="img/montaj3.jpg" />
-					</li>
-					<li data-thumb="img/montaj4.jpg" data-src="img/largeImage1.jpg">
-						<img src="img/montaj4.jpg" />
-					</li>
-					<li data-thumb="img/montaj5.jpg" data-src="img/largeImage1.jpg">
-						<img src="img/montaj5.jpg" />
-					</li>
+					<li data-thumb="img/montaj.jpg" style="background-image: url(img/montaj.jpg)"></li>
+					<li data-thumb="img/montaj1.jpg" style="background-image: url(img/montaj.jpg)"></li>
+					<li data-thumb="img/montaj2.jpg" style="background-image: url(img/montaj.jpg)"></li>
+					<li data-thumb="img/montaj3.jpg" style="background-image: url(img/montaj.jpg)"></li>
+					<li data-thumb="img/montaj4.jpg" style="background-image: url(img/montaj.jpg)"></li>
+					<li data-thumb="img/montaj5.jpg" style="background-image: url(img/montaj.jpg)"></li>
 				</ul>
 			</div>
 	</section>
@@ -614,167 +570,163 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="but-want">
-							<button class="want-popup">Хочу экскурсию на производство</button>
+							<a href="#popup" class="want-popup open-popup-link">Хочу экскурсию на производство</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="solutions">
-		<div class="container-fluid">
-			<div class="inner">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="sky-zag sky-zag-client sky-zag-solutions">
-							<h2>Типовые решения</h2>
+	<div class="solutions-bg">
+		<section class="solutions">
+			<div class="container-fluid">
+				<div class="inner">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="sky-zag sky-zag-client sky-zag-solutions">
+								<h2>Типовые решения</h2>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row pad-sol">
-					<div class="col-xs-12 col-md-6">
-						<div class="img-solutions">
-							<img src="img/space.jpg" alt="">
+					<div class="row pad-sol">
+						<div class="col-xs-12 col-md-6">
+							<div class="img-solutions">
+								<img src="img/typical1.jpg" alt="">
+							</div>
 						</div>
-					</div>
-					<div class="col-xs-12 col-md-6">
-						<div class="graf">
-							<div class="title-graf">
-								<span>Космическое пространство</span>
-								<p>Space</p>
+						<div class="col-xs-12 col-md-6">
+							<div class="graf">
+								<div class="title-graf">
+									<span>Космическое пространство</span>
+									<p>Space</p>
+								</div>
+								<div class="choice-graf">
+									<p class="icon-nine">Срок выполнения</p>
+									<tt class="pull-right">9 дней</tt>
+								</div>
+								<div class="choice-graf choice-graf_b">
+									<p class="icon-bol">Площадь</p>
+									<tt class="pull-right">17 кв.м</tt>
+								</div>
+								<div class="choice-graf">
+									<p class="icon-stars">Количество звезд</p>
+									<tt class="pull-right">570 шт.</tt>
+								</div>
+								<span class="graf-cost">от 149 000 руб.</span>
+								<a class="graf-btn open-popup-link" href="#popup">Получить бесплатную визуализацию</a>
 							</div>
-							<div class="choice-graf">
-								<p class="icon-nine">Срок выполнения</p>
-								<tt class="pull-right">9 дней</tt>
-							</div>
-							<div class="choice-graf choice-graf_b">
-								<p class="icon-bol">Площадь</p>
-								<tt class="pull-right">17 кв.м</tt>
-							</div>
-							<div class="choice-graf">
-								<p class="icon-stars">Количество звезд</p>
-								<tt class="pull-right">570 шт.</tt>
-							</div>
-							<span class="graf-cost">от 149 000 руб.</span>
-							<button>Получить бесплатную визуализацию</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="solutions hidden">
-		<div class="container-fluid">
-			<div class="inner">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="sky-zag sky-zag-client sky-zag-solutions">
-							<h2>Типовые решения</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row pad-sol">
-					<div class="col-xs-12 col-md-6">
-						<div class="img-solutions">
-							<img src="img/space.jpg" alt="">
-						</div>
-					</div>
-					<div class="col-xs-12 col-md-6">
-						<div class="graf">
-							<div class="title-graf">
-								<span>Космическое пространство</span>
-								<p>Space</p>
-							</div>
-							<div class="choice-graf">
-								<p class="icon-nine">Срок выполнения</p>
-								<tt class="pull-right">9 дней</tt>
-							</div>
-							<div class="choice-graf choice-graf_b">
-								<p class="icon-bol">Площадь</p>
-								<tt class="pull-right">17 кв.м</tt>
-							</div>
-							<div class="choice-graf">
-								<p class="icon-stars">Количество звезд</p>
-								<tt class="pull-right">570 шт.</tt>
-							</div>
-							<span class="graf-cost">от 149 000 руб.</span>
-							<button>Получить бесплатную визуализацию</button>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<section class="solutions solutions-left">
-		<div class="container-fluid">
-			<div class="inner">
-				<div class="row pad-sol-left">
-					<div class="col-xs-12 col-md-6">
-						<div class="graf">
-							<div class="title-graf">
-								<span>Звездное небо</span>
-								<p>Star</p>
+		</section>
+		<section class="solutions solutions-left hidden-xs hidden-sm">
+			<div class="container-fluid">
+				<div class="inner">
+					<div class="row pad-sol-left">
+						<div class="col-xs-12 col-md-6">
+							<div class="graf">
+								<div class="title-graf">
+									<span>Звездное небо</span>
+									<p>Star</p>
+								</div>
+								<div class="choice-graf">
+									<p class="icon-nine">Срок выполнения</p>
+									<tt class="pull-right">9 дней</tt>
+								</div>
+								<div class="choice-graf choice-graf_b">
+									<p class="icon-bol">Площадь</p>
+									<tt class="pull-right">99 кв.м</tt>
+								</div>
+								<div class="choice-graf">
+									<p class="icon-stars">Количество звезд</p>
+									<tt class="pull-right">590 шт.</tt>
+								</div>
+								<span class="graf-cost">от 149 000 руб.</span>
+								<a class="graf-btn open-popup-link" href="#popup">Получить бесплатную визуализацию</a>
 							</div>
-							<div class="choice-graf">
-								<p class="icon-nine">Срок выполнения</p>
-								<tt class="pull-right">9 дней</tt>
-							</div>
-							<div class="choice-graf choice-graf_b">
-								<p class="icon-bol">Площадь</p>
-								<tt class="pull-right">99 кв.м</tt>
-							</div>
-							<div class="choice-graf">
-								<p class="icon-stars">Количество звезд</p>
-								<tt class="pull-right">590 шт.</tt>
-							</div>
-							<span class="graf-cost">от 149 000 руб.</span>
-							<button>Получить бесплатную визуализацию</button>
 						</div>
-					</div>
-					<div class="col-xs-12 col-md-6">
-						<div class="img-solutions">
-							<img src="img/list.jpg" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="solutions solutions-bg">
-		<div class="container-fluid">
-			<div class="inner">
-				<div class="row pad-city">
-					<div class="col-xs-12 col-md-6">
-						<div class="img-solutions">
-							<img src="img/city-fon.jpg" alt="">
-						</div>
-					</div>
-					<div class="col-xs-12 col-md-6">
-						<div class="graf">
-							<div class="title-graf">
-								<span>Ночной город</span>
-								<p>Black</p>
+						<div class="col-xs-12 col-md-6">
+							<div class="img-solutions">
+								<img src="img/typical2.jpg" alt="">
 							</div>
-							<div class="choice-graf">
-								<p class="icon-nine">Срок выполнения</p>
-								<tt class="pull-right">9 дней</tt>
-							</div>
-							<div class="choice-graf choice-graf_b">
-								<p class="icon-bol">Площадь</p>
-								<tt class="pull-right">17 кв.м</tt>
-							</div>
-							<div class="choice-graf">
-								<p class="icon-stars">Количество звезд</p>
-								<tt class="pull-right">570 шт.</tt>
-							</div>
-							<span class="graf-cost">от 149 000 руб.</span>
-							<button>Получить бесплатную визуализацию</button>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+		<section class="solutions visible-xs visible-sm">
+			<div class="container-fluid">
+				<div class="inner">
+					<div class="row pad-sol-left">
+						<div class="col-xs-12 col-md-6">
+							<div class="img-solutions">
+								<img src="img/typical2.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="graf">
+								<div class="title-graf">
+									<span>Звездное небо</span>
+									<p>Star</p>
+								</div>
+								<div class="choice-graf">
+									<p class="icon-nine">Срок выполнения</p>
+									<tt class="pull-right">9 дней</tt>
+								</div>
+								<div class="choice-graf choice-graf_b">
+									<p class="icon-bol">Площадь</p>
+									<tt class="pull-right">99 кв.м</tt>
+								</div>
+								<div class="choice-graf">
+									<p class="icon-stars">Количество звезд</p>
+									<tt class="pull-right">590 шт.</tt>
+								</div>
+								<span class="graf-cost">от 149 000 руб.</span>
+								<a class="graf-btn open-popup-link" href="#popup">Получить бесплатную визуализацию</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="solutions">
+			<div class="container-fluid">
+				<div class="inner">
+					<div class="row pad-city">
+						<div class="col-xs-12 col-md-6">
+							<div class="img-solutions">
+								<img src="img/city-fon.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="graf">
+								<div class="title-graf">
+									<span>Ночной город</span>
+									<p>Black</p>
+								</div>
+								<div class="choice-graf">
+									<p class="icon-nine">Срок выполнения</p>
+									<tt class="pull-right">9 дней</tt>
+								</div>
+								<div class="choice-graf choice-graf_b">
+									<p class="icon-bol">Площадь</p>
+									<tt class="pull-right">17 кв.м</tt>
+								</div>
+								<div class="choice-graf">
+									<p class="icon-stars">Количество звезд</p>
+									<tt class="pull-right">570 шт.</tt>
+								</div>
+								<span class="graf-cost">от 149 000 руб.</span>
+								<a class="graf-btn open-popup-link" href="#popup">Получить бесплатную визуализацию</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
 	<section class="emotions">
 		<div class="container-fluid">
 			<div class="inner">
@@ -822,7 +774,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="footer">
+	<section class="footer" id="contacts">
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -847,22 +799,20 @@
 							</div>
 						</div>
 						<div class="form footer-form">
-							<form action="" class="forma">
+							<form class="forma">
 								<h2>Получите бесплатную визуализацию</h2>
 								<p>Оставьте номер телефона и мы свяжемся с вами в течении 17 минут</p>
 								<div class="row">
-									<div class="col-xs-12 col-md-6">
+									<div class="col-xs-12 col-md-6 no-padding-left footer-form-left">
 										<input type="hidden" name="project_name" value="StarSky">
-										<input type="hidden" name="admin_email" value="ElectroDeggi33759@yandex.ru">
+										<input type="hidden" name="admin_email" value="bux-center@ya.ru">
 										<input type="hidden" name="form_subject" value="Заявка на визуализацию">
-										<input type="text" class="name-form" placeholder="Введите ваше имя" required>
-										<input type="text" class="phone-form" placeholder="Введите номер телефона" required>
-										<input type="text" class="email-form" placeholder="Введите ваш E-mail" required>
+										<input type="text" class="name-form" name="name" placeholder="Введите ваше имя" required>
+										<input type="text" class="phone-form" name="phone" placeholder="Введите номер телефона" required>
+										<input type="text" class="email-form" name="email" placeholder="Введите ваш E-mail" required>
 									</div>
-									<div class="col-xs-12 col-md-6">
-										<textarea name="text-form" id="">
-
-										</textarea>
+									<div class="col-xs-12 col-md-6 footer-form-right">
+										<textarea name="message" placeholder="Введите сообщение"></textarea>
 									</div>
 								</div>
 								<button type="submit" name="send">Отправить сообщение</button>
@@ -875,9 +825,17 @@
 							</ul>
 						</div>
 						<div class="copirate">
-							<p  class="pull-left">© ООО «Купол Неба» 2016 </p>
-							<a href="#">Политика конфединциальности</a>
-							<p class="pull-right">Бизнес упакован в makefrash.ru</p>
+							<div class="row">
+								<div class="col-md-4">
+									<p>© ООО «Купол Неба» 2016 </p>
+								</div>
+								<div class="col-md-4">
+									<a href="#">Политика конфединциальности</a>
+								</div>
+								<div class="col-md-4">
+									<p>Бизнес упакован в makefrash.ru</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -889,36 +847,43 @@
 
 
     <div class="popup mfp-hide first-popup" id="popup">
-        <div class="row">
-
-                <form action="" class="forma">
+                <form class="forma">
                     <h2>Получите бесплатную<br>
                         визуализацию</h2>
                     <p>Оставьте номер телефона и мы<br>
                         свяжемся с вами в течении 17 минут</p>
                     <input type="hidden" name="project_name" value="StarSky">
-                    <input type="hidden" name="admin_email" value="ElectroDeggi33759@yandex.ru">
+                    <input type="hidden" name="admin_email" value="bux-center@ya.ru">
                     <input type="hidden" name="form_subject" value="Заявка на визуализацию">
-                    <input type="text" class="name-form" placeholder="Введите ваше имя" required>
-                    <input type="text" class="phone-form" placeholder="Введите номер телефона" required>
+                    <input type="text" class="name-form" name="name" placeholder="Введите ваше имя" required>
+                    <input type="text" class="phone-form" name="phone" placeholder="Введите номер телефона" required>
                     <button type="submit" name="send">да, я хочу Получить</button>
                 </form>
-                <img src="img/list.jpg" alt="">
-
-        </div>
+                <img src="img/popupformimg.jpg" alt="">
     </div>
 
+	<div class="popup mfp-hide first-popup second-popup" id="popup2">
+		<form class="forma">
+			<h2>Получите бесплатную<br>
+				визуализацию</h2>
+			<p>Оставьте номер телефона и мы<br>
+				свяжемся с вами в течении 17 минут</p>
+			<input type="hidden" name="project_name" value="StarSky">
+			<input type="hidden" name="admin_email" value="bux-center@ya.ru">
+			<input type="hidden" name="form_subject" value="задать вопрос">
+			<input type="text" class="name-form" name="name" placeholder="Введите ваше имя" required>
+			<input type="text" class="phone-form" name="phone" placeholder="Введите номер телефона" required>
+			<button type="submit" name="send">да, я хочу Получить</button>
+		</form>
+	</div>
 
 
-	<div class="popup mfp-hide" id="ThankYou">
-		<div class="sky-zag">
-			<h2>Спасибо за обращение</h2>
-		</div>
-		<p>В течение пары минут с вами свяжется наш менеджер и ответит<br> на все интересующие вас вопросы</p>
-		<div class="video">
-			<img src="img/video.jpg" alt="">
-		</div>
-		<button type="submit">ПРодолжить</button>
+	<a href="#ThankYou" class="open-popup-link"></a>
+	<div class="popup first-popup second-popup mfp-hide" id="ThankYou">
+		<form class="forma">
+			<h2>Спасибо за обращение <span>Artem</span></h2>
+			<p>В течение пары минут с вами свяжется наш менеджер и ответит<br> на все интересующие вас вопросы</p>
+		</form>
 	</div>
 
 

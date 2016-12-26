@@ -11,9 +11,9 @@ body{
 	font-size: 16px;
 	min-width: 320px;
 	position: relative;
-  color: #fff;
+    color: #fff;
 	line-height: 1.6;
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
 	background-color: #fff;
 }
@@ -35,9 +35,6 @@ button{
 	}
 }
 
-.hidden{
-	display: none;
-}
 header{
 	background-image: url("../img/bg-sky.jpg");
 	min-height: 1620px;
@@ -69,10 +66,11 @@ header{
       margin-right: 29.5px;
       display: block;
       letter-spacing: 0.3px;
-      &:hover{
+      border-bottom: 2px solid transparent;
+      &:hover,&:focus{
         border-bottom: 2px solid #cc33cc;
         text-decoration: none;
-		}
+      }
 	}
 	li{
 		float: left;
@@ -212,17 +210,17 @@ body .lamp{
   margin-top: 51px;
 }
 .forma{
-  border: 1px solid #d050d0;
-  background-color: rgba(0,0,0, .4);
+  border: 2px solid #d050d0;
+  background-color: rgba(0,0,0, .65);
   text-align: center;
   width: 100%;
-  max-width: 366px;
+  max-width: 401px;
   padding: 15px;
-  padding-top: 37px;
+  padding-top: 32px;
   h2{
     font-size: 26px;
-    font-weight: 800;
-    line-height: 38px;
+    font-weight: 700;
+    line-height: 35px;
     letter-spacing: -0.2px;
   }
   p{
@@ -235,7 +233,7 @@ body .lamp{
   input{
       display: inline-block;
       position: relative;
-      width: 91%;
+      width: 82%;
       background-color: #fff;
       border-radius: 20px;
       margin-top: 13px;
@@ -243,24 +241,32 @@ body .lamp{
       padding: 8px 38px;
       color: #666666;
       letter-spacing: -0.6px;
-    }
+      border: 1px solid #fff;
+  }
   button{
     text-transform: uppercase;
-    display: block;
-    padding: 10px 48px;
+    display: inline-block;
+    padding: 10px 35px;
     text-align: center;
+    width: 82%;
     margin: 15px auto;
     margin-bottom: 34px;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 200px;
     letter-spacing: 0.7px;
     font-weight:800;
     font-size: 16px;
     background-color: #bd26bf;
+    border: 1px solid #bd26bf;
     text-shadow: 2px 3px 3px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 15px rgba(236, 88, 242, 0.35);
     &:hover{
       background-color: #8f2390;
     }
+  }
+  &.forma-top{
+    border: 2px solid #d352d4;
+    box-shadow: 0 3px 15px rgba(196, 47, 200, 0.35);
   }
 }
 body .name-form{
@@ -269,7 +275,6 @@ body .name-form{
   background-position: 16px;
 }
 body .phone-form{
-  margin-left: 5px;
   color: #df8fdf;
   background-image: url("../img/phone.png");
   background-repeat: no-repeat;
@@ -291,7 +296,7 @@ body .phone-form{
   h2{
     color: #ffccff;
     font-size: 65px;
-    letter-spacing: -3.5px;
+    letter-spacing: 2.5px;
     span{
       font-size: 50px;
     }
@@ -326,7 +331,7 @@ body .advantages-item_m{
   h2{
     font-size: 72px;
     font-weight:400;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     position: relative;
     &:after{
       display: block;
@@ -336,12 +341,12 @@ body .advantages-item_m{
       background-repeat: no-repeat;
       width: 173px;
       height: 11px;
-
     }
   }
   p{
     font-size: 20px;
     letter-spacing: 1.2px;
+    padding-bottom: 35px;
   }
 }
 
@@ -436,7 +441,7 @@ body .advantages-item_m{
   transition-delay: 0.1s; }
 
 .sandwich.active .sw-topper {
-  top: 9px;
+  top: 11px;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg); }
