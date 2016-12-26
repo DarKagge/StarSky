@@ -65,6 +65,9 @@
 	}
 }
 @media only screen and (max-width : 991px){
+	.bgTop{
+		padding-bottom: 30px;
+	}
 	.head-inf p{
 		font-size:2.7vw;
 	}
@@ -253,6 +256,11 @@
 	}
 
 }
+@media only screen and (max-width : 784px){
+	.head-inf{
+		margin-top: 160px;
+	}
+}
 @media only screen and (max-width : 777px){
 	.production-slider{
 		.lSSlideOuter{
@@ -266,9 +274,7 @@
 
 }
 @media only screen and (max-width : 768px){
-	.head-inf{
-		margin-top: 80px;
-	}
+
 	.table-item br{
 		display: none;
 	}
@@ -318,10 +324,14 @@
 }
 
 @media only screen and (max-width : 600px){
+	.head-inf{
+		margin-top: 315px;
+	}
 	.phone{
 		display: block;
 		float: none;
 		text-align: center;
+		padding-left: 0;
 	}
 	.head-popup{
 		float: none;

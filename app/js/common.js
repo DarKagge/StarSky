@@ -163,6 +163,16 @@ $(".service-item .item").on("click",function () {
 $(".scroll2id").mPageScroll2id();
 
 
+$(window).scroll(function(){
+    var scrollTop = $("html").scrollTop() ? $("html").scrollTop() : $("body").scrollTop();
+    if(scrollTop >= 90){
+        $(".top").addClass("bgTop");
+    }else{
+        $(".top").removeClass("bgTop");
+    }
+
+});
+
 
 
 });

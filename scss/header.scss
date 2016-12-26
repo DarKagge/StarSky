@@ -35,6 +35,17 @@ button{
 	}
 }
 
+.top{
+  position: fixed;
+  left: 0 ;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.bgTop{
+  background-color: rgba(0,0,0, .8);
+
+}
 header{
 	background-image: url("../img/bg-sky.jpg");
 	min-height: 1620px;
