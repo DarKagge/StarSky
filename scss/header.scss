@@ -286,12 +286,12 @@ body .name-form{
   background-position: 16px;
 }
 body .phone-form{
-  color: #df8fdf;
+  color: #666;
   background-image: url("../img/phone.png");
   background-repeat: no-repeat;
   background-position: 15px;
   @include placeholder{
-    color: #df8fdf;
+    color: #666;
   }
 }
 

@@ -252,18 +252,18 @@ body .name-form {
   background-position: 16px; }
 
 body .phone-form {
-  color: #df8fdf;
+  color: #666;
   background-image: url("../img/phone.png");
   background-repeat: no-repeat;
   background-position: 15px; }
   body .phone-form::-webkit-input-placeholder {
-    color: #df8fdf; }
+    color: #666; }
   body .phone-form::-moz-placeholder {
-    color: #df8fdf; }
+    color: #666; }
   body .phone-form:-moz-placeholder {
-    color: #df8fdf; }
+    color: #666; }
   body .phone-form:-ms-input-placeholder {
-    color: #df8fdf; }
+    color: #666; }
 
 .head-advantages {
   margin-top: 95px; }
